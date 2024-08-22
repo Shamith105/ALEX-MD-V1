@@ -75,7 +75,7 @@ BHASHI MD IS A VERY POWERFUL WHATSAPP BOT
 BASE BUILD USING BY BAILEYES API KEYS
 
 
-ᴘᴏᴡᴇʀᴅ ʙʏ ᴏꜰᴄ ʙʜᴀꜱʜɪᴛʜᴀ`;
+𝗣𝗢𝗪𝗘𝗥𝗘𝗗  𝗕𝗬 𝗔𝗟𝗘𝗫-𝗜𝗗`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/353e86db7ae0ef9bccec0.jpg` }, caption: up })
 
