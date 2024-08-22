@@ -138,8 +138,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               if (mime.split("/")[0] === "audio") {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
-            }
-        
+            }  
 //=========================WORK-TYPE=========================//
 if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return 
