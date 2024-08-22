@@ -26,7 +26,7 @@ https://whatsapp.com/channel/0029VagEOTtHwXbDdrr7Eq3k
            ⦁│ᴘʀᴏɢʀᴀᴍꜱ│⦁`,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS=`true`,
 MODE: process.env.MODE=`public`,
-MENU_MSG: process.env.MENU_MSG=`*╭─ 「  𝐀𝙻𝗘𝙓-𝗠𝗗  」`*
+MENU_MSG: process.env.MENU_MSG=`*╭─ 「  𝐀𝙻𝗘𝙓-𝗠𝗗  」*
 *╰────────────┈*
 > ⟡━⟪ BOT PANNEL ⟫━⟡
 *╭────────────┈◦•◦❥•*
