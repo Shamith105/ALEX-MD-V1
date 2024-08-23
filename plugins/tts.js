@@ -1,5 +1,6 @@
-const googleTTS = require('google-tts-api');
-const {zokou} = require("../framework/zokou");
+const {cmd , commands} = require('../command')
+const fg = require('api-dylux')
+const tts = require('google-tts-api')
 
 
 zokou( {
