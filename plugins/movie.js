@@ -38,6 +38,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *╎🌎 Cᴏᴜɴᴛʀʏ ➠* ${data.Country}
 *╚────────────────>*
  *📖* ${data.Plot}
+ 
 ╭─「  𝙪𝙥𝙡𝙤𝙖𝙙𝙚 𝙗𝙮 」
 ╰────────────┈
 > ⟡━⟪ 𝘔𝘙.𝘈𝘓𝘌𝘟-𝘐𝘋⟫━⟡
