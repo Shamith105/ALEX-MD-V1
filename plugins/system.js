@@ -12,14 +12,22 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let status = `‎ 
-*┏━┫  𝗕𝗛𝗔𝗦𝗛𝗜 𝗠𝗗 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡*
-*┃*
-*┃* ⏰ 𝗨𝗽 𝗧𝗶𝗺𝗲 : ${runtime(process.uptime())}
-*┃* 📻 𝗥𝗮𝗺 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-*┃* ⚙️ 𝗛𝗼𝘀𝘁 : ${os.hostname()}
-*┃* 👑 𝗢𝘄𝗻𝗲𝗿 : OFC Bhashitha 
-*┗━━━━━━━━━━━━━━━━━━━━━━━━‎*`
+let status = `‎*╭─「 𝐀𝙻𝗘𝙓-𝙈𝘿 」*
+*╰───────────────┈*
+*⟡━⟪ 𝐀𝐋𝐄𝐗-𝐌𝐃 𝐒𝐘𝐒𝐓𝐄𝐌 𝐈𝐍𝐅𝐎  ⟫━⟡*
+*╭─────────────────┈◦•☻•◦*
+*╎⏰ 𝗨𝗽 𝗧𝗶𝗺𝗲 : ${runtime(process.uptime())}*
+*╎📟 𝗥𝗮𝗺 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+*╎⚙️PlatForm  : ${os.hostname()}*
+*╎➣ CPU Speed -: ${ccp.speed}*
+*╎➣ CPU Brand -: ${ccp.brand}*
+*╎➢ CPU Manufacture  -: ${ccp.manufacturer}* 
+*╎👨‍💻 𝗢𝘄𝗻𝗲𝗿 : 𝐀𝙻𝗘𝙓-𝙄𝘿*
+*╚───────────────────♲*
+*╭─「  POWERED BY 」*
+*╰────────────┈*
+> ⟡━⟪ 𝘔𝘙.𝘈𝘓𝘌𝘟-𝘐𝘋⟫━⟡
+       *⦁│ᴘʀᴏɢʀᴀᴍꜱ│⦁*`
 return reply(`${status}`)
 
 }catch(e){
