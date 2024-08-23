@@ -19,9 +19,6 @@ let status = `‎*╭─「 𝐀𝙻𝗘𝙓-𝙈𝘿 」*
 *╎⏰ 𝗨𝗽 𝗧𝗶𝗺𝗲 : ${runtime(process.uptime())}*
 *╎📟 𝗥𝗮𝗺 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 *╎⚙️PlatForm  : ${os.hostname()}*
-*╎➣ CPU Speed -: ${ccp.speed}*
-*╎➣ CPU Brand -: ${ccp.brand}*
-*╎➢ CPU Manufacture  -: ${ccp.manufacturer}* 
 *╎👨‍💻 𝗢𝘄𝗻𝗲𝗿 : 𝐀𝙻𝗘𝙓-𝙄𝘿*
 *╚───────────────────♲*
 *╭─「  POWERED BY 」*
