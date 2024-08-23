@@ -47,6 +47,7 @@ https://whatsapp.com/channel/0029VagEOTtHwXbDdrr7Eq3k
 > ⟡━⟪  𝘔𝘙 𝘈𝘓𝘌𝘟 - 𝘐𝘋  ⟫━⟡
            ⦁│ᴘʀᴏɢʀᴀᴍꜱ│⦁`,
 OMDB_API_KEY: process.env.OMDB_API_KEY="76cb7f39",
-MODE: process.env.MODE="public"
+MODE: process.env.MODE="public",
+PEXELS_API_KEY: process.env.PEXELS_API_KEY='39WCzaHAX939xiH22NCddGGvzp7cgbu1VVjeYUaZXyHUaWlL1LFcVFxH',
 };   
 
