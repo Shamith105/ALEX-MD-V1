@@ -77,7 +77,7 @@ BASE BUILD USING BY BAILEYES API KEYS
 
 𝗣𝗢𝗪𝗘𝗥𝗘𝗗  𝗕𝗬 𝗔𝗟𝗘𝗫-𝗜𝗗`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/353e86db7ae0ef9bccec0.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/d7e4a702a1b70a78c29ba.jpg` }, caption: up })
 
 }
 })
