@@ -6,7 +6,7 @@ cmd({
     pattern: "movie",
     desc: "Fetch detailed information about a movie.",
     category: "utility",
-    react: "🎬",
+    react: "🎥",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -36,8 +36,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *╎〽️ Gᴇɴʀᴇs ➠* ${data.genres}
 *╎🌎 Cᴏᴜɴᴛʀʏ ➠* ${data.country}
 *╚────────────────>*
-*📖* ${plot}
-
 *╭─「  𝙪𝙥𝙡𝙤𝙖𝙙𝙚 𝙗𝙮 」*
 *╰──────────────┈*
 > ⟡━⟪ 𝘔𝘙.𝘈𝘓𝘌𝘟-𝘐𝘋⟫━⟡
@@ -49,7 +47,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Send the movie information along with the poster image
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> BHASHI-MD`
+            caption: `${movieInfo}\n> 𝘼𝙇𝙀𝙓-𝙈𝘿 𝙈𝙑 𝙄𝙉𝙁𝙊`
         }, { quoted: mek });
     } catch (e) {
         console.log(e);
