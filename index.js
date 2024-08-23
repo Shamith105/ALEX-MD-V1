@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94727528807']
+const ownerNumber = ['94756857260']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -69,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*BHASHI-MD V1 CONECTED SUCESSFULL ✅*
+let up = `*ALEX-MD V1 CONECTED SUCESSFULL ✅*
 
-BHASHI MD IS A VERY POWERFUL WHATSAPP BOT
+ALEX-MD IS A VERY POWERFUL WHATSAPP BOT
 BASE BUILD USING BY BAILEYES API KEYS
 
 
