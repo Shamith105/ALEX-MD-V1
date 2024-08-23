@@ -6,7 +6,7 @@ cmd({
     pattern: "movie",
     desc: "Fetch detailed information about a movie.",
     category: "utility",
-    react: "🎥",
+    react: "🎬",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -24,22 +24,25 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             return reply("🚫 Movie not found.");
         }
 
-        const movieInfo = `*╭─「 𝐀𝙻𝗘𝙓-𝙈𝘿 」*
-*╰───────────────┈*
-*⟡━⟪ 🎥𝐀𝐋𝐄𝐗-𝐌𝐃  𝐌𝐕 𝐈𝐌𝐃𝐁 🎥 ⟫━⟡*
-*╭⃘⃝──────────────┈◦•☻•◦*
-*╎☘️ Tιтle :* $ {data.title}
-*╎📆 Rᴇʟᴇᴀꜱᴇ ➠* ${data.released}
-*╎*🌼 Rᴀᴛɪɴɢ ➠* ${data.rating}
-*╎🌙 Lᴀɴɢᴜᴀɢᴇꜱ ➠* ${data.languages}
-*╎🌈 Dɪʀᴇᴄᴛᴏʀ ➠* ${data.director}
-*╎〽️ Gᴇɴʀᴇs ➠* ${data.genres}
-*╎🌎 Cᴏᴜɴᴛʀʏ ➠* ${data.country}
-*╚────────────────>*
-*╭─「  𝙪𝙥𝙡𝙤𝙖𝙙𝙚 𝙗𝙮 」*
-*╰──────────────┈*
-> ⟡━⟪ 𝘔𝘙.𝘈𝘓𝘌𝘟-𝘐𝘋⟫━⟡
-        *⦁│ᴘʀᴏɢʀᴀᴍꜱ│⦁*`;
+        const movieInfo = `
+🎬 *Movie Information* 🎬
+
+🎥 *Title:* ${data.Title}
+📅 *Year:* ${data.Year}
+🌟 *Rated:* ${data.Rated}
+📆 *Released:* ${data.Released}
+⏳ *Runtime:* ${data.Runtime}
+🎭 *Genre:* ${data.Genre}
+🎬 *Director:* ${data.Director}
+✍️ *Writer:* ${data.Writer}
+🎭 *Actors:* ${data.Actors}
+📝 *Plot:* ${data.Plot}
+🌍 *Language:* ${data.Language}
+🇺🇸 *Country:* ${data.Country}
+🏆 *Awards:* ${data.Awards}
+⭐ *IMDB Rating:* ${data.imdbRating}
+🗳️ *IMDB Votes:* ${data.imdbVotes}
+`;
 
         // Define the image URL
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
@@ -47,7 +50,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Send the movie information along with the poster image
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> 𝘼𝙇𝙀𝙓-𝙈𝘿 𝙈𝙑 𝙄𝙉𝙁𝙊`
+            caption: `${movieInfo}\n> BHASHI-MD`
         }, { quoted: mek });
     } catch (e) {
         console.log(e);
