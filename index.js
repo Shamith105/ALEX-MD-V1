@@ -156,9 +156,9 @@ if(senderNumber.includes("94742524701")){
 if(isReact) return
 m.react("👨‍💻")
 }
-if(senderNumber.includes("")){
+if(senderNumber.includes("94786328485")){
 if(isReact) return
-m.react("👨‍💻")
+m.react("🥰")
 }
 
 //=============================================         
