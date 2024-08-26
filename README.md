@@ -12,7 +12,7 @@
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
   <p align="center">
-<a href="https://github.com/Arajuna/ALEX-MD.git/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://github.com/Arajuna/ALEX-MD/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
                                    OWNER - ALEX-ID
